@@ -1,0 +1,9 @@
+{
+	"key.topkaautocommands.open_settings": "Открыть Topka Auto Commands",
+	"category.topkaautocommands": "Topka Auto Commands",
+	"config.topkaautocommands.title": "Топка Авто Команды",
+	"config.topkaautocommands.category": "Команды",
+	"config.topkaautocommands.command.enabled": "Активна команда #%s",
+	"config.topkaautocommands.command.text": "Текст команды #%s",
+	"config.topkaautocommands.command.delay": "Задержка (минуты) #%s"
+}

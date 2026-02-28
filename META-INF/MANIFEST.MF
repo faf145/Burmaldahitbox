@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Fabric-Jar-Type: classes
+Fabric-Loom-Client-Only-Entries: client-topkaautocommands.refmap.json;co
+ m/template/mod/mixin/ScreenMixin.class;ru/autocommands/client/TopkaAuto
+ CommandsClient$AutoCommandsScreen.class;ru/autocommands/client/TopkaAut
+ oCommandsClient.class;ru/landsproject/main/button/TopkaButton.class;top
+ kaautocommands.client.mixins.json
+Fabric-Loom-Mixin-Remap-Type: mixin
+Fabric-Loom-Split-Environment: true
+Fabric-Gradle-Version: 9.1.0
+Fabric-Loom-Version: 1.11.8
+Fabric-Mixin-Compile-Extensions-Version: 0.6.0
+Fabric-Minecraft-Version: 1.21.4
+Fabric-Tiny-Remapper-Version: 0.11.1
+Fabric-Loader-Version: 0.17.2
+Fabric-Mixin-Version: 0.16.3+mixin.0.8.7
+Fabric-Mixin-Group: net.fabricmc
+Fabric-Mapping-Namespace: intermediary
+

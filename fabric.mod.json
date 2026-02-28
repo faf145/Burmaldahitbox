@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "topkaautocommands",
+	"version": "1.0.0",
+	"name": "TopkaAutoCommands",
+	"description": "TopkaAutoCommands - автоматическое выполнение команд в Minecraft. Правый Shift для настроек. 5 команд с задержкой. 👥 TopkaProduct.com & funtrue 🌐 https://topkaproduct.com/",
+	"authors": [
+		"TopkaProduct.com",
+		"funtrue"
+	],
+	"contact": {
+		"homepage": "https://topkaproduct.com/"
+	},
+	"license": "All Rights Reserved",
+	"icon": "https://ltdfoto.ru/images/2025/09/30/64ch64-1.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"ru.autocommands.TopkaAutoCommands"
+		],
+		"client": [
+			"ru.autocommands.client.TopkaAutoCommandsClient"
+		]
+	},
+	"mixins": [
+		"topkaautocommands.mixins.json",
+		{
+			"config": "topkaautocommands.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

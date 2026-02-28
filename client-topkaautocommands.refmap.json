@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "com/template/mod/mixin/ScreenMixin": {
+      "addDrawableChild": "Lnet/minecraft/class_437;method_37063(Lnet/minecraft/class_364;)Lnet/minecraft/class_364;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/template/mod/mixin/ScreenMixin": {
+        "addDrawableChild": "Lnet/minecraft/class_437;method_37063(Lnet/minecraft/class_364;)Lnet/minecraft/class_364;"
+      }
+    }
+  }
+}
