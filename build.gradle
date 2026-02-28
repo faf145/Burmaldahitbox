@@ -1,10 +1,14 @@
 plugins {
-    id 'net.fabricmc.loom' version '1.7-SNAPSHOT'
-    id 'java-library'
+    id 'net.fabricmc.loom' version '1.7.4'
 }
 
 group = "ru.autocommands"
 version = "1.0.0"
+
+repositories {
+    mavenCentral()
+    maven { url = "https://maven.fabricmc.net/" }
+}
 
 dependencies {
     minecraft "com.mojang:minecraft:1.21.4"
@@ -12,12 +16,6 @@ dependencies {
     modImplementation "net.fabricmc:fabric-loader:0.16.10"
 }
 
-java {
-    sourceCompatibility = JavaVersion.VERSION_21
-    targetCompatibility = JavaVersion.VERSION_21
-}
-
 tasks.withType(JavaCompile).configureEach {
-    it.options.encoding = "UTF-8"
     it.options.release = 21
 }
