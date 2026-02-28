@@ -1,9 +1,18 @@
-plugins {
-    id 'net.fabricmc.loom' version '1.7.4'
+buildscript {
+    repositories {
+        maven { url = "https://maven.fabricmc.net/" }
+        mavenCentral()
+    }
+    dependencies {
+        classpath "net.fabricmc:fabric-loom:1.7-SNAPSHOT"
+    }
 }
 
-group = "ru.autocommands"
+apply plugin: "net.fabricmc.loom"
+apply plugin: "maven-publish"
+
 version = "1.0.0"
+group = "ru.autocommands"
 
 repositories {
     mavenCentral()
